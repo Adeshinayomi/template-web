@@ -171,6 +171,7 @@ footer{
   }
   .image{
     display: none;
+    width:20px;
   }
  .text{
   margin: 100px 50px;
