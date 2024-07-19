@@ -1,0 +1,275 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(19, 18, 18);
+  height: 50px;
+}
+nav .logo{
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0 40px;
+}
+  ul{
+  float: right;
+  line-height: 50px;
+  margin: 0 50px;
+}
+ li{
+  display: inline-block;
+}
+ a{
+  color: white;
+  margin:0 20px;
+  line-height: 50px;
+}
+.active{
+  text-decoration: underline 4px  rgba(23, 115, 235, 0.68) ;
+}
+a:hover{
+  text-decoration: underline 4px  rgba(23, 115, 235, 0.68) ;
+}
+.btn{
+  float: right;
+  margin: 0 20px;
+  font-size: 40px;
+  display: none;
+}
+#check{
+  display:  none;
+}
+.hero-section{
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgba(23, 115, 235, 0.68);
+}
+
+.hero {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text{
+  margin-top: 40px;
+}
+.text p{
+  font-size: 35px;
+  font-weight: bold;
+  margin:10px 40px;
+}
+h1{
+  font-size: 70px;
+  font-weight: bold;
+  margin:10px 40px;
+}
+button{
+  background-color:rgba(23, 115, 235, 0.68);;
+  border: 1px solid black;
+  margin:20px 40px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor:pointer;
+}
+.slider{
+  align-items: center;
+  position: relative;
+  bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  padding:0 40px;
+}
+.cont{
+  background-color: white;
+  padding: 10px 40px;
+  margin: 0 10px;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(132, 139, 149, 0.3);
+}
+.cont i{
+  font-size: 40px;
+  margin: 20px 0;
+  text-align: center;
+}
+.social-media-handles{
+  background-color: white;
+  padding: 20px 10px;
+  position: fixed;
+  top:35%;
+  right: 0;
+  display: block;
+  box-shadow: 5px 5px 10px rgba(23, 115, 235, 0.3);
+}
+.social-media-handles i{
+  font-size: 40px;
+  margin: 10px 0;
+  color: black;
+}
+.big-text{
+  margin: 20px 40px;
+  padding: 30px 40px;
+  font-size: 40px;
+  font-weight: bold;
+  
+}
+footer{
+  background-color: rgb(19, 18, 18);
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 0;
+}
+@media  screen and (max-width:767px) {
+  .btn{
+    display: block;   
+  }
+  nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(19, 18, 18);
+    height: 50px;
+  }
+  nav .logo{
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0 40px;
+  }
+    ul{
+
+    display: none;
+  }
+   li{
+    display: inline-block;
+  }
+   a{
+    color: white;
+    margin:0 20px;
+    line-height: 50px;
+  }
+  .active{
+    text-decoration: underline 4px  rgba(23, 115, 235, 0.68) ;
+  }
+  a:hover{
+    text-decoration: underline 4px  rgba(23, 115, 235, 0.68) ;
+  }
+
+  .hero-section{
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgba(23, 115, 235, 0.68);
+  }
+  
+  .hero {
+    width:100%;
+    margin: 0;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .text{
+    margin-top: 40px;
+  }
+  .text p{
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px 40px;
+  }
+  h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin:10px 40px;
+  }
+  button{
+    background-color:rgba(23, 115, 235, 0.68);;
+    border: 1px solid black;
+    margin:20px 40px;
+    padding: 10px ;
+    font-size: 16px;
+    cursor:pointer;
+  }
+  .image{
+    margin: 20px 0;
+    width:150px;
+  }
+  .image img{
+    width:150px;
+  }
+  .slider{
+    align-items: center;
+    position: static;
+    bottom: 30px;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr;
+    padding:0 40px;
+  }
+  .cont{
+    background-color: white;
+    padding: 10px 00;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgba(132, 139, 149, 0.3);
+  }
+  .cont i{
+    font-size: 40px;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .social-media-handles{
+    background-color: white;
+    padding: 20px 10px;
+    position: fixed;
+    top:35%;
+    right: 0;
+    display: block;
+    box-shadow: 5px 5px 10px rgba(23, 115, 235, 0.3);
+  }
+  .social-media-handles i{
+    font-size: 20px;
+    margin: 10px 0;
+    color: black;
+  }
+  .big-text{
+    width: 100%;
+    margin: 20px 0;
+    padding: 30px 0;
+    font-size: 20px;
+    font-weight: bold;
+    
+  }
+  footer{
+    background-color: rgb(19, 18, 18);
+    color: white;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    place-items: center;
+    padding: 10px 10px;
+  }
+  footer i{
+   display: none;
+  }
+}
+#check:checked ~ ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  margin: 0;
+  background-color: black;
+  height: 100vh;
+}
